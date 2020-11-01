@@ -4,10 +4,6 @@ import os
 import matplotlib.pyplot as plt
 import curses
 
-my_code = QrCode.encode_text("Hello World! My name is nick and I am a real live boy", QrCode.Ecc.LOW)
-pattern = np.array(my_code._modules).astype('int32') 
-
-
 class _Canvas():
     """Base class for canvases"""
 
