@@ -23,7 +23,7 @@ Nayuki's [QR-Code-generator](https://github.com/nayuki/QR-Code-generator).
 # Installation
 ```
 git clone https://github.com/Ruunyox/CursesQR
-cd CursesQR
+cd cursesqr
 python setup.py install
 ```
 
