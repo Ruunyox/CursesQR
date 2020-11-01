@@ -112,6 +112,9 @@ class CursesCanvas(_Canvas):
             if 2*pattern.shape[1] > self.screen.getmaxyx()[1]:
                 curses.endwin()
                 raise RuntimeError("QR code width too large for window width")
+            if pattern.shape[0] > self.screen.getmaxyx()[0]:
+                curses.endwin()
+                raise RuntimeError("QR code height too large for window width")
             self._draw_pattern(pattern)
             self.screen.refresh()
 
