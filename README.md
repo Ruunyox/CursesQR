@@ -21,7 +21,9 @@ Nayuki's [QR-Code-generator](https://github.com/nayuki/QR-Code-generator).
 * [QR-Code-generator](https://github.com/nayuki/QR-Code-generator)
 
 # Installation
-`git clone https://github.com/Ruunyox/CursesQR`
-`cd CursesQR`
-`python setup.py install`
+```
+git clone https://github.com/Ruunyox/CursesQR
+cd CursesQR
+python setup.py install
+```
 
