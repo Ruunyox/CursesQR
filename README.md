@@ -1,7 +1,7 @@
 # CursesQR
 
 <p align="center">
-<img src='./qr.png' width=250px>
+<img src='./qr.png' width=350px>
 </p>
 
 ---
