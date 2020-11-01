@@ -1,1 +1,1 @@
-from .cursesqr.py import *
+from .cursesqr import *
