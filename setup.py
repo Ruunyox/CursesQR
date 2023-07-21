@@ -33,6 +33,7 @@ setup(
     cmdclass={
         'install': InstallScript
     },
+    install_requires=['qrcodegen'],
     entry_points={
         'console_scripts': [
             'cursesqr = cursesqr.bin.cursesqr:__main__',
